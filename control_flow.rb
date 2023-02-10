@@ -1,5 +1,3 @@
-
-
 def admin_login(username, password)
   # your code here
   if username == 'admin' && password == '12345'
@@ -24,10 +22,17 @@ def hows_the_weather(temperature)
     end
 end
 
-
-
 def fizzbuzz(num)
   # your code here
+  if num % 3 == 0 && num % 5 == 0 
+    "FizzBuzz"
+  elsif num % 3 == 0
+    "Fizz"
+  elsif num % 5 == 0
+    "Buzz"
+  else 
+     num
+  end
 end
 
 def calculator(operation, num1, num2)
